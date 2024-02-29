@@ -100,14 +100,14 @@ WSGI_APPLICATION = 'djangoAPI.wsgi.application'
 DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
-		'NAME': 'defaultdb',
-		'USER': 'avnadmin',
+		'NAME': 'persons',
+		'USER': 'mehranscript',
 		'PASSWORD': 'AVNS_Cj5knIN1Q5-gLgYWa0c',
-		'HOST':'website-mysql-mehran2bb-website.a.aivencloud.com',
-		'PORT':'24832',
+		'HOST':'mehranscript.mysql.pythonanywhere-services.com',
+		'PORT':'',
 		'OPTIONS': {
         'charset': 'utf8mb4',
-        'init_command': 'ALTER DATABASE defaultdb DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci',
+        'init_command': 'ALTER DATABASE persons DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci',
     }
 	}
 }
