@@ -102,7 +102,7 @@ DATABASES = {
 		'ENGINE': 'django.db.backends.mysql',
 		'NAME': 'persons',
 		'USER': 'mehranscript',
-		'PASSWORD': 'AVNS_Cj5knIN1Q5-gLgYWa0c',
+		'PASSWORD': 'netcarshow@23',
 		'HOST':'mehranscript.mysql.pythonanywhere-services.com',
 		'PORT':'',
 		'OPTIONS': {
