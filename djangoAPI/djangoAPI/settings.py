@@ -98,18 +98,10 @@ WSGI_APPLICATION = 'djangoAPI.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-	'default': {
-		'ENGINE': 'django.db.backends.mysql',
-		'NAME': 'persons',
-		'USER': 'mehranscript',
-		'PASSWORD': 'netcarshow@23',
-		'HOST':'mehranscript.mysql.pythonanywhere-services.com',
-		'PORT':'',
-		'OPTIONS': {
-        'charset': 'utf8mb4',
-        'init_command': 'ALTER DATABASE persons DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci',
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
-	}
 }
 
 
